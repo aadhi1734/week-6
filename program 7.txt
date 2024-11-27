@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+char s1[]="Hello",s2[]="Hi";
+int i;
+for(i=0;i<6;i++)
+{
+ if(s1[i]!=s2[i])
+{
+printf("the given strings are not equal");
+ break;
+}
+}
+if(i=5)
+printf("given strings are equal");
+return 0;
+}
